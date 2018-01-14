@@ -1,0 +1,8 @@
+c:\Users\Софья\documents\visual studio 2015\Projects\MyList\UnitTestProjectMyList\bin\Debug\UnitTestProjectMyList.dll
+c:\Users\Софья\documents\visual studio 2015\Projects\MyList\UnitTestProjectMyList\bin\Debug\UnitTestProjectMyList.pdb
+c:\Users\Софья\documents\visual studio 2015\Projects\MyList\UnitTestProjectMyList\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\Users\Софья\documents\visual studio 2015\Projects\MyList\UnitTestProjectMyList\bin\Debug\MyList.dll
+c:\Users\Софья\documents\visual studio 2015\Projects\MyList\UnitTestProjectMyList\bin\Debug\MyList.pdb
+c:\Users\Софья\documents\visual studio 2015\Projects\MyList\UnitTestProjectMyList\obj\Debug\UnitTestProjectMyList.csprojResolveAssemblyReference.cache
+c:\Users\Софья\documents\visual studio 2015\Projects\MyList\UnitTestProjectMyList\obj\Debug\UnitTestProjectMyList.dll
+c:\Users\Софья\documents\visual studio 2015\Projects\MyList\UnitTestProjectMyList\obj\Debug\UnitTestProjectMyList.pdb

@@ -1,0 +1,5 @@
+c:\users\софья\documents\visual studio 2015\Projects\MyList\MyList\bin\Debug\MyList.dll
+c:\users\софья\documents\visual studio 2015\Projects\MyList\MyList\bin\Debug\MyList.pdb
+c:\users\софья\documents\visual studio 2015\Projects\MyList\MyList\obj\Debug\MyList.dll
+c:\users\софья\documents\visual studio 2015\Projects\MyList\MyList\obj\Debug\MyList.pdb
+c:\users\софья\documents\visual studio 2015\Projects\MyList\MyList\obj\Debug\MyList.csprojResolveAssemblyReference.cache
