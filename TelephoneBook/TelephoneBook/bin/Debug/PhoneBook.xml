@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contacts>
+  <contact name="Петя Петров">
+    <worknumber>890999999</worknumber>
+    <homenumber>85667777</homenumber>
+    <email>vasya@mail.ru</email>
+    <skype>vasya</skype>
+    <birthday>1998-02-13 00:00:00,000</birthday>
+    <commentary>
+    </commentary>
+  </contact>
+  <contact name="Маша Егорова">
+    <worknumber>88856456</worknumber>
+    <homenumber>756865756</homenumber>
+    <email>masha@m</email>
+    <skype>masha</skype>
+    <birthday>1998-01-13 00:00:00,000</birthday>
+    <commentary>
+    </commentary>
+  </contact>
+  <contact name="Елена Иванова">
+    <worknumber>865846</worknumber>
+    <homenumber>34543645</homenumber>
+    <email>elena@mail.ru</email>
+    <skype>lena</skype>
+    <birthday>1986-01-13 00:00:00,000</birthday>
+    <commentary>
+    </commentary>
+  </contact>
+</contacts>

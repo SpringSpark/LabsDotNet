@@ -1,0 +1,88 @@
+﻿<Window x:Class="TelephoneBook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local = "clr-namespace:TelephoneBook"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="700">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <ScrollViewer>
+                <ItemsControl ItemsSource="{Binding AlphabetButtons}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Content="{Binding Content}" Command="{Binding Command}" CommandParameter="{Binding Content}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Column="1">            
+            <ListView x:Name ="phonebook" Grid.Column ="0" ItemsSource="{Binding Contacts}" SelectedItem="{Binding SelectedContact}" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <WrapPanel>
+                            <TextBlock Text="{Binding Name}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="{Binding WorkNumber}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="{Binding HomeNumber}" FontWeight="Bold" />
+                        </WrapPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" DataContext="{Binding ElementName=phonebook, Path=SelectedItem}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Имя" />
+                <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Name}" />
+                <Label Grid.Row="1" Grid.Column="0" Content="Рабочий телефон" />
+                <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding WorkNumber}" />
+                <Label Grid.Row="2" Grid.Column="0" Content="Домашний телефон" />
+                <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding HomeNumber}" />
+                <Label Grid.Row="3" Grid.Column="0" Content="Email" />
+                <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Email}" />
+                <Label Grid.Row="4" Grid.Column="0" Content="Skype" />
+                <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding Skype}" />
+                <Label Grid.Row="5" Grid.Column="0" Content="Дата рождения" />
+                <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding Birthday, StringFormat=\{0:d\}, ConverterCulture=ru}" />
+                <Label Grid.Row="6" Grid.Column="0" Content="Примечание" />
+                <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding Commentary}" />
+            </Grid>
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                <Button Content="Добавить новый контакт" Margin="3,3,3,3.4" Command="{Binding AddContactCommand}" />
+                <Button Content="Удалить контакт" Margin="3" Command="{Binding RemoveContactCommand}" />
+            </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,26,0.2,-26.6">
+                <Button Content="Сохранить изменения" Margin="3,3,3,3.2" Command="{Binding SaveContactsCommand}" RenderTransformOrigin="1.159,0.456" />
+            </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,53,0.4,-53.6">
+                <Button Content="Скоро отмечают День рождения" Margin="3,3,3,3.2" Command="{Binding ShowBirthdaysCommand}" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

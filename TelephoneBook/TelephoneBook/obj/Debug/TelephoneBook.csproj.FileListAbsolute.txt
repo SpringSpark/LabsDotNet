@@ -1,0 +1,16 @@
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\bin\Debug\TelephoneBook.exe.config
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\bin\Debug\TelephoneBook.exe
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\bin\Debug\TelephoneBook.pdb
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\MainWindow.g.cs
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\App.g.cs
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\TelephoneBook_MarkupCompile.cache
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\TelephoneBook_MarkupCompile.lref
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\MainWindow.baml
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\TelephoneBook.g.resources
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\TelephoneBook.Properties.Resources.resources
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\TelephoneBook.csproj.GenerateResource.Cache
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\TelephoneBook.csproj.CoreCompileInputs.cache
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\TelephoneBook.exe
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\TelephoneBook.pdb
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\TelephoneBook.csprojResolveAssemblyReference.cache
+C:\Users\007\Documents\VS2017 Projects\TelephoneBook\TelephoneBook\obj\Debug\GeneratedInternalTypeHelper.g.cs
